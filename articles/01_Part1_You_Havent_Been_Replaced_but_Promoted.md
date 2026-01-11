@@ -169,27 +169,21 @@ Spec-driven development applies to more than just product features. For Sparkpas
 
 Here's what that enabled:
 
-```
+```markdown
 ## API Contract: POST /invoices
 
 ### Request
-
-```json
 {
   "quoteId": "uuid",
   "type": "PLATFORM_FEE" | "TICKET"
 }
-```
 
 ### Success Response (201)
-
-```json
 {
   "id": "uuid",
   "paymentRequest": "lnbc...",
   "expiresAt": "ISO8601"
 }
-```
 
 ### Error Responses
 - 400: Invalid request body
@@ -202,7 +196,7 @@ When I asked Claude to implement this endpoint, it had everything it needed. The
 
 **CI.md** (390 lines) describes every CI job: what it checks, why it exists, what failure modes it catches, and how to fix common failures. I wrote it before configuring any GitHub Actions.
 
-```
+```markdown
 ### Prisma Validation
 
 **Why this exists:** Per post-mortem `2025-12-25_migration-ordering-failure.md`:
@@ -213,7 +207,7 @@ DB, so the history could not be applied from empty.
 1. Check migration order in `prisma/migrations/`
 2. Ensure drops come AFTER backfills (two-step pattern)
 3. If history is broken, consider baseline recovery
-
+```
 
 Every CI job links back to a decision trace or post-mortem explaining *why* it exists. When a job fails, the spec tells you how to fix it.
 
