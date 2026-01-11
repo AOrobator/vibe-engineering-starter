@@ -8,6 +8,7 @@ From the article series: **Vibe Engineering: From Random Code to Deterministic S
 
 ```
 .
+├── QUICKSTART.md          # Get started in 15 minutes
 ├── AGENTS.md              # Agent personas for multi-perspective code review
 ├── PRODUCT_SPEC.md        # Template for defining what you're building
 ├── WORKLOG.md             # Template for tracking multi-session work
@@ -18,6 +19,10 @@ From the article series: **Vibe Engineering: From Random Code to Deterministic S
 ```
 
 ## Quick Start
+
+**⚡ [First 15 Minutes](QUICKSTART.md)** — Get a tiny win before reading the theory.
+
+Or if you want the full setup:
 
 1. Copy these files into your project root
 2. Fill in `PRODUCT_SPEC.md` with your product's happy paths, sad paths, and constraints
