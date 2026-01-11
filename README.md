@@ -16,6 +16,8 @@ From the article series: **Vibe Engineering: From Random Code to Deterministic S
 │   ├── PRODUCT_SPEC_EXAMPLE.md   # User registration flow example
 │   ├── SYSTEM_SPEC_EXAMPLE.md    # API contract example
 │   └── CI_SPEC_EXAMPLE.md        # CI job documentation example
+├── articles/              # The full article series
+│   └── 01_Part1_...       # Part 1: You Haven't Been Replaced — You've Been Promoted
 ├── .claude/
 │   └── skills/
 │       ├── feature-dev/     # Skill for implementing features with TDD
@@ -55,10 +57,10 @@ The feedback loop is what makes this work. Post-mortems improve skills. Skills i
 ## Learn More
 
 Read the full article series for the philosophy behind this workflow:
-- Part 1: You Haven't Been Replaced — You've Been Promoted
-- Part 2: Agents, Skills, Worklogs, and the Feedback Loop
-- Part 3: Designing Failure Before It Designs You
-- Part 4: Scaling the Vibes
+- [Part 1: You Haven't Been Replaced — You've Been Promoted](articles/01_Part1_You_Havent_Been_Replaced_but_Promoted.md)
+- Part 2: Agents, Skills, Worklogs, and the Feedback Loop *(coming soon)*
+- Part 3: Designing Failure Before It Designs You *(coming soon)*
+- Part 4: Scaling the Vibes *(coming soon)*
 
 ---
 
