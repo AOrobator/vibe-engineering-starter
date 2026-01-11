@@ -18,8 +18,9 @@ From the article series: **Vibe Engineering: From Random Code to Deterministic S
 │   └── CI_SPEC_EXAMPLE.md        # CI job documentation example
 ├── .claude/
 │   └── skills/
-│       ├── feature-dev/   # Skill for implementing features with TDD
-│       └── post-mortem/   # Skill for capturing lessons after shipping
+│       ├── feature-dev/     # Skill for implementing features with TDD
+│       ├── post-mortem/     # Skill for capturing lessons after shipping
+│       └── medium-editing/  # Skill for editing Medium articles via Playwright
 └── archive/               # How this repo was built (worklog + outline)
 ```
 
