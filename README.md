@@ -12,10 +12,11 @@ From the article series: **Vibe Engineering: From Random Code to Deterministic S
 ├── AGENTS.md              # Agent personas for multi-perspective code review
 ├── PRODUCT_SPEC.md        # Template for defining what you're building
 ├── WORKLOG.md             # Template for tracking multi-session work
-└── .claude/
-    └── skills/
-        ├── feature-dev/   # Skill for implementing features with TDD
-        └── post-mortem/   # Skill for capturing lessons after shipping
+├── .claude/
+│   └── skills/
+│       ├── feature-dev/   # Skill for implementing features with TDD
+│       └── post-mortem/   # Skill for capturing lessons after shipping
+└── archive/               # How this repo was built (worklog + outline)
 ```
 
 ## Quick Start
