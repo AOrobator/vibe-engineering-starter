@@ -55,7 +55,56 @@ Address ChatGPT feedback to improve readability and adoption of the 4-part artic
 - [x] "Create PRODUCT_SPEC.md with 3 bullet points: what your current feature must never break"
 - [x] Turns identity-shaping into behavior-shaping
 
+### M10: Part 2 Failure Vignette (Article Edit) ✅
+- [x] Add failure story in Agent Reviews section
+- [x] "The Race Condition Claude Missed" — Claude + Codex pairing, Codex caught stale useEffect state
+- [x] Lesson: "One AI implements, one AI reviews—not both"
+
+### M11: Part 4 Failure Vignette (Article Edit) ✅
+- [x] Add failure story about context collapse in Context Window Problem section
+- [x] "When Compaction Nuked the Worklog" — TodoWrite ≠ Worklog, session lost milestone tracking
+- [x] Lesson: "Compaction will eat your context. Verify persistent state before session ends."
+
+### M12: Part 1 Audience Banner (Article Edit) ✅
+- [x] Add explicit "this is not beginner content" banner after TOC
+- [x] "Come back after you've shipped a bug that the AI confidently told you was fine"
+- [x] Narrowing audience increases adoption among people who matter
+
+### M13: Part 4 Context Banner (Article Edit) ✅
+- [x] Add "Prerequisites" banner after TOC
+- [x] "If you haven't lost a session to context collapse... Parts 1-3 will serve you better"
+- [x] Sets expectations that Part 4 is intellectually strongest but assumes prior pain
+
+### M14: Quantification Framework ✅
+- [x] Define metrics that prove the system works (not LOC vanity)
+- [x] Backtraced real metrics from decision traces, worklogs, commit history
+- [x] Replaced Part 1 LOC stats with quality metrics table:
+  - 54 decision traces (auditability)
+  - 9+ bugs caught pre-production (prevention)
+  - 7 agent VETOs (enforcement)
+  - 13 postmortems → skills (learning velocity)
+  - 27 multi-session worklogs (context survival)
+- [x] LOC mentioned as aside, not headline
+
+### M15: NEXT_AGENT_PROMPT Failure Modes (Article Edit) ✅
+- [x] Add "Where NEXT_AGENT_PROMPT Breaks" section after the pattern description
+- [x] Include failure modes table: stale pointers, false completion, priority drift, split-brain, checklist bloat
+- [x] Add prior art citations: I-PASS/SBAR (clinical handoffs), ADRs, Temporal.io
+- [x] Key insight: "a handoff protocol is only as good as its invariants + validation"
+
+### M16: ChatGPT Final Polish (Article Edit) ✅
+- [x] Add "Most AI workflows optimize for parallelism. This one optimizes for memory." to NEXT_AGENT_PROMPT section
+- [x] Add cognitive compression metric to conclusion: "how little did I have to re-explain myself?"
+- [x] Include specs, skills, worklogs, and NEXT_AGENT_PROMPT as the compression tools
+
 ## Session Log
+
+### 2026-01-11 - Session 2
+- Completed M10-M16 (failure vignettes, audience banners, quantification, NEXT_AGENT_PROMPT failure modes, final polish)
+- Added real failure stories from Sparkpass decision traces (Codex race condition, worklog accountability)
+- Replaced LOC vanity metrics with quality metrics backtraced from actual artifacts
+- Added NEXT_AGENT_PROMPT failure modes with prior art citations
+- ChatGPT's final verdict: "ship it"
 
 ### 2026-01-10 - Session 1
 - Completed Part 4 draft (~2,634 words)
@@ -72,6 +121,14 @@ Address ChatGPT feedback to improve readability and adoption of the 4-part artic
 - ChatGPT's second round: "artifacts that survive context loss" is the defensible edge vs typical agentic content
 - ChatGPT's third round: Part 1 is "identity-shaping but not behavior-shaping" — needs urgency + action
 - NEXT_AGENT_PROMPT.md is "the single highest-impact idea for advanced readers"
+- ChatGPT's fourth round reframe: "AI accountability engineering" > "vibe coding" — this is about making randomness accountable
+- NEXT_AGENT_PROMPT is "bigger than vibe coding—a general theory of how humans + LLMs collaborate over time"
+- Constitutional invariants are the killer primitive; "truth hierarchy" separates from 95% of AI dev content
+- The real audience is narrower than stated: senior+ engineers, solo founders, staff ICs — not "developers"
+- ChatGPT's stress test of NEXT_AGENT_PROMPT: failure modes include stale pointers, false completion, priority drift, split-brain, checklist bloat
+- Prior art we're reinventing: I-PASS/SBAR (clinical handoffs), ADRs (architectural decisions), Temporal.io (durable execution)
+- ChatGPT's final take: "this is not a blog series anymore—it's the first credible articulation of human-AI collaboration as a systems discipline"
+- The cognitive compression framing: "how little did I have to re-explain myself?" is the real metric
 
 ## Decisions Made
 - Starter kit will be linked repo, not in-article (avoids bloat, allows iteration)
