@@ -1,14 +1,16 @@
 # Vibe Engineering: From Random Code to Deterministic Systems
 
+![Vibe Engineering header image](vibe_engineering_header.jpg)
+
 ## Part 4: Worklogs — How AI Work Persists Over Time
 
 *By Andrew Orobator and Claude Opus 4.5*
 
 *This is Part 4 of a 7-part series on AI-assisted development workflows.*
 
-1. You Haven't Been Replaced — You've Been Promoted
-2. Personas — How to Think With AI
-3. Skills — How to Encode What You Learn
+1. [You Haven't Been Replaced — You've Been Promoted](01_Part1_You_Havent_Been_Replaced_but_Promoted.md)
+2. [Personas — How to Think With AI](02_Part2_Personas.md)
+3. [Skills — How to Encode What You Learn](03_Part3_Skills.md)
 4. **Worklogs — How AI Work Persists Over Time** ← You are here
 5. The Feedback Loop — How Systems Improve Themselves
 6. Designing Failure Before It Designs You
@@ -220,6 +222,6 @@ The feedback loop is how the whole system gets smarter. Each mistake makes the n
 
 ---
 
-*← Part 3: Skills — How to Encode What You Learn*
+*← [Part 3: Skills — How to Encode What You Learn](03_Part3_Skills.md)*
 
 *Part 5: The Feedback Loop — How Systems Improve Themselves →*

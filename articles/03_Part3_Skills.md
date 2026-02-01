@@ -1,5 +1,7 @@
 # Vibe Engineering: From Random Code to Deterministic Systems
 
+![Vibe Engineering header image](vibe_engineering_header.jpg)
+
 ## Part 3: Skills — How to Encode What You Learn
 
 *By Andrew Orobator and Claude Opus 4.5*

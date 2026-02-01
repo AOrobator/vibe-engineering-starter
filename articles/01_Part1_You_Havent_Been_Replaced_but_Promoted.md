@@ -7,12 +7,15 @@
 
 *By Andrew Orobator, Claude Opus 4.5 Editor: Chat GPT 5.2*
 
-*This is Part 1 of a 4-part series on AI-assisted development workflows.*
+*This is Part 1 of a 7-part series on AI-assisted development workflows.*
 
 1. **You Haven't Been Replaced — You've Been Promoted** ← You are here
-2. Agents, Skills, Worklogs, and the Feedback Loop: The New Engineering Stack
-3. Designing Failure Before It Designs You
-4. Scaling the Vibes
+2. [Personas — How to Think With AI](02_Part2_Personas.md)
+3. [Skills — How to Encode What You Learn](03_Part3_Skills.md)
+4. [Worklogs — How AI Work Persists Over Time](04_Part4_Worklogs.md)
+5. The Feedback Loop — How Systems Improve Themselves
+6. Designing Failure Before It Designs You
+7. Scaling the Vibes
 
 ---
 
@@ -235,14 +238,9 @@ This mental model is the foundation. Tools make it real.
 
 ## What's Next
 
-In Part 2, we'll cover the four tools that make this workflow concrete:
+In [Part 2: Personas — How to Think With AI](02_Part2_Personas.md), we'll cover the first primitive: personas.
 
-- **Agent Personas** — imaginary colleagues that catch what you miss
-- **Skills** — reusable prompts that encode your hard-won lessons
-- **Worklogs** — the backbone that keeps AI work auditable and resumable
-- **The Feedback Loop** — post-mortems, decision traces, and "what surprised the AI"
-
-That last one is critical. Without it, you make the same mistakes over and over. The feedback loop is how skills and agents evolve — how your system gets smarter with every feature.
+Personas are imaginary colleagues that catch what you miss — the security engineer who finds the session token leak, the UX advocate who flags the cryptic error message. Solo developers can have code review. You just invent the reviewers.
 
 > **📝 Before Part 2**
 >
@@ -258,4 +256,4 @@ That last one is critical. Without it, you make the same mistakes over and over.
 
 ---
 
-*Part 2: Agents, Skills, Worklogs, and the Feedback Loop →*
+*[Part 2: Personas — How to Think With AI](02_Part2_Personas.md) →*
