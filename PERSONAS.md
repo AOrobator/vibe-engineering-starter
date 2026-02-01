@@ -1,6 +1,8 @@
-# Agent Personas
+# Personas
 
-Agent personas are imaginary colleagues that provide different perspectives during code review. Each agent has a specific domain and a set of concerns they focus on.
+Personas are imaginary colleagues that provide different perspectives during code review. Each persona has a specific domain and a set of concerns they focus on.
+
+> **Why "Personas"?** The term "Agent" now commonly refers to autonomous AI systems. These are simpler: they're just perspectives you ask the AI to adopt. Think of them as reviewers with different expertise, not autonomous actors.
 
 ## How to Use
 

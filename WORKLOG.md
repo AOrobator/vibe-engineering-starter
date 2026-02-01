@@ -1,10 +1,19 @@
 # [Feature Name] Worklog
 
 > Copy this template when starting a new feature. Delete these instructions when you fill it in.
+>
+> **Smell Test:** If your worklog is longer than 100 lines for a simple feature, cut sections, not detail. 50-100 lines is normal. If your worklog is longer than your implementation will be, you've over-engineered it.
 
 ## Mission
 
 [One sentence: what are we building and why]
+
+## Skills Loaded
+
+> Load skills for *everything*, no matter how small. Large codebases have gotchas. This prevents "I didn't know that existed" mistakes.
+
+- `/skill-name` — [why this skill applies]
+- `/skill-name` — [why this skill applies]
 
 ## Milestones
 
@@ -32,24 +41,20 @@
 
 **Commit:** `feat(scope): [description]`
 
----
-
-### M3: [Third Milestone]
-
-**Tests (RED):**
-- [ ] Test: [Expected behavior]
-
-**Implementation (GREEN):**
-- [ ] [Implementation task]
-
-**Commit:** `feat(scope): [description]`
-
 ## Invariants
 
-> Rules that must always be true. Violations are bugs.
+> Rules that must always be true. Violations are bugs. Use for payments, auth, rate limiting, data privacy—anywhere "almost right" ships a bug. Skip for UI-only changes or simple CRUD.
 
 - **INV-1:** [Invariant description]
 - **INV-2:** [Invariant description]
+
+## Closing the Loop
+
+> A milestone isn't done when tests pass—it's done when you've *seen it work*. Without explicit verification, the agent marks "done" after writing code, not after proving it works.
+
+- [ ] Run `npm test` — all tests pass
+- [ ] [Playwright/browser verification step]
+- [ ] [Edge case verification]
 
 ## Session Log
 
@@ -73,9 +78,9 @@
 
 ...
 
-## What Surprised the AI
+## Surprises
 
-> Capture surprises in real-time. These often become skills or agent updates.
+> Capture surprises in real-time. Then immediately update the relevant skill so the next feature benefits. The context is freshest right after you hit the issue.
 
 - [Unexpected behavior or edge case]
 - [Assumption that turned out to be wrong]
@@ -107,3 +112,5 @@
 4. **Be specific about blockers.** "Stuck" is not useful. "Stuck because the API returns 403 and I don't know why" is useful.
 
 5. **End sessions with "Next session" notes.** Future you (or future AI) will thank you.
+
+6. **Close the loop.** Don't mark done until you've verified it works—not just that the code looks right.
